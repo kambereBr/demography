@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/demography/static/css/main.a5bbed27.css",
+    "main.js": "/demography/static/js/main.55763ea6.js",
+    "index.html": "/demography/index.html",
+    "main.a5bbed27.css.map": "/demography/static/css/main.a5bbed27.css.map",
+    "main.55763ea6.js.map": "/demography/static/js/main.55763ea6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5bbed27.css",
+    "static/js/main.55763ea6.js"
+  ]
+}
