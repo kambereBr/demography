@@ -75,7 +75,7 @@ Project-feature4: Country details
 
 You can access the Demograpy app at the link below.
 
-- [Live Demo Link](https://kamberebr.github.io/demography/)
+- [Live Demo Link](https://kamberebr.github.io/demography)
 - [Video presentation](https://www.loom.com/share/de38a9c2c9bd4c4f8e001cf5cece20cb?sid=4c4a4f05-919a-4898-9503-70ce9e301a8a)
 
 [`Back to top`](#readme-top)
