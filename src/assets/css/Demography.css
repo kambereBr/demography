@@ -1,0 +1,35 @@
+.demography-card {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+
+.demography-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.demography-content > span {
+  margin-left: 10px;
+}
+
+.demography-right-content {
+  margin-right: 10px;
+}
+
+.demography-population {
+  margin-right: 15px;
+}
+
+.demography-row {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.demography-row:hover {
+  cursor: pointer;
+}
