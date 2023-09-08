@@ -1,15 +1,18 @@
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../../store';
-import Details from './Details';
+import store from '../redux/store';
+import Demography from '../components/demography/Demography';
 
-describe('Render Details correctly', () => {
-  it('Render Details Screen correctly', () => {
+describe('Render Demography correctly', () => {
+  it('Render Demography Screen correctly', () => {
     const tree = renderer.create(
       <Provider store={store}>
         <MemoryRouter>
-          <Details />
+          <Demography
+            year={2018}
+            populationCounts={1929294}
+          />
         </MemoryRouter>
       </Provider>,
     ).toJSON();

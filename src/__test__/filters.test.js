@@ -1,5 +1,5 @@
-import filterCountries from './filters';
-import countriesData from './constants';
+import filterCountries from '../utils/filters';
+import countriesData from '../utils/constants';
 
 const responseAE = [
   {

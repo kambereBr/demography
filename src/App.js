@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import CountriesList from './features/countries/CountriesList';
-import Details from './features/countries/details/Details';
+import NavBar from './components/navbar/NavBar';
+import CountriesList from './components/countries/CountriesList';
+import Details from './components/countries/Details';
 import './assets/css/App.css';
 
 function App() {

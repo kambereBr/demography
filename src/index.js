@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import store from './features/store';
+import store from './redux/store';
 import App from './App';
-import { fetchCountries } from './features/countries/countriesSlice';
+import { fetchCountries } from './redux/countries/countriesSlice';
 import './assets/css/index.css';
 
 store.dispatch(fetchCountries());

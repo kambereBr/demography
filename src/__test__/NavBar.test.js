@@ -1,18 +1,15 @@
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../store';
-import Demography from './Demography';
+import store from '../redux/store';
+import NavBar from '../components/navbar/NavBar';
 
-describe('Render Demography correctly', () => {
-  it('Render Demography Screen correctly', () => {
+describe('Render NavBar correctly', () => {
+  it('Render NavBar Screen correctly', () => {
     const tree = renderer.create(
       <Provider store={store}>
         <MemoryRouter>
-          <Demography
-            year={2018}
-            populationCounts={1929294}
-          />
+          <NavBar />
         </MemoryRouter>
       </Provider>,
     ).toJSON();

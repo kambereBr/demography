@@ -1,8 +1,8 @@
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../store';
-import Country from './Country';
+import store from '../redux/store';
+import Country from '../components/countries/Country';
 
 describe('Render Country correctly', () => {
   it('Render Country Screen correctly', () => {

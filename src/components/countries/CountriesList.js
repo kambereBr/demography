@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import Country from './Country';
 import filterCountries from '../../utils/filters';
 import '../../assets/css/CountriesList.css';
-import FilterCountries from '../../components/FilterCountries';
+import FilterCountries from '../filter/FilterCountries';
 
 const CountriesList = () => {
   const { countries } = useSelector((state) => state.countries);

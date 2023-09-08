@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../assets/css/NavBar.css';
+import '../../assets/css/NavBar.css';
 import { FaMicrophone, FaLessThan } from 'react-icons/fa';
 import { BsFillGearFill } from 'react-icons/bs';
-// import { IoIosArrowBack } from 'react-icons/io';
 
 const NavBar = () => (
   <div className="container">

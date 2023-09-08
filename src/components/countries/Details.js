@@ -2,9 +2,9 @@ import { React, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router';
 import { v4 as uuidv4 } from 'uuid';
-import { getCountryByIso3, fetchCountries } from '../countriesSlice';
-import Demography from '../../demography/Demography';
-import '../../../assets/css/Details.css';
+import { getCountryByIso3, fetchCountries } from '../../redux/countries/countriesSlice';
+import Demography from '../demography/Demography';
+import '../../assets/css/Details.css';
 
 const Details = () => {
   const { iso3 } = useParams();

@@ -1,10 +1,10 @@
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../features/store';
+import store from '../redux/store';
 import filters from '../utils/filters';
 import countriesData from '../utils/constants';
-import FilterCountries from './FilterCountries';
+import FilterCountries from '../components/filter/FilterCountries';
 
 describe('Render FilterCountries correctly', () => {
   const handleFilter = (value) => {
