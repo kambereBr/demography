@@ -1,0 +1,35 @@
+:root {
+  --bg-color: rgb(81, 141, 251);
+  --primary-color: rgb(64, 102, 205);
+  --text-color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .countries-container,
+  .details-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .filter-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .countries-container-ul {
+    margin-top: 20px;
+  }
+
+  .filter-container select {
+    width: 50%;
+  }
+
+  .details-container {
+    margin-top: 20px;
+  }
+}
