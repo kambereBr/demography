@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render FilterCountries correctly Render FilterCountries Component correctly 1`] = `
+<div
+  className="filter-container"
+>
+  <select
+    onChange={[Function]}
+  >
+    <option
+      selected={true}
+      value=""
+    >
+      Display All
+    </option>
+    <option
+      value="A-E"
+    >
+      A to E
+    </option>
+    <option
+      value="F-J"
+    >
+      F to J
+    </option>
+    <option
+      value="K-O"
+    >
+      K to O
+    </option>
+    <option
+      value="P-T"
+    >
+      P to T
+    </option>
+    <option
+      value="U-Z"
+    >
+      U to Z
+    </option>
+  </select>
+</div>
+`;
