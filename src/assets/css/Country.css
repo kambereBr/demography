@@ -8,10 +8,23 @@
   justify-content: space-around;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
+.country-card-icon,
 .country-card-row {
-  font-size: 20px;
-  color: var(--text-color);
   padding-right: 10px;
+  padding-top: 5px;
+}
+
+.country-card-row {
+  color: var(--text-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .country-card-row-content {

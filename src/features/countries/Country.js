@@ -8,12 +8,16 @@ const Country = ({
   iso3, country, code, populationCounts, classValue,
 }) => (
   <li className={`country-card ${classValue}`} id={iso3}>
-    <Link to={`/details/${iso3}`}><FaRegArrowAltCircleRight className="country-card-row" /></Link>
-    <div className="country-card-row-content">
-      <span className="country-description">{code}</span>
-      <span className="country-description">{country}</span>
-      <span className="cities-number">{populationCounts}</span>
-    </div>
+    <Link to={`/details/${iso3}`} className="country-card-row card-link">
+      <span>
+        <FaRegArrowAltCircleRight className="country-card-icon" />
+      </span>
+      <div className="country-card-row-content">
+        <span className="country-description">{code}</span>
+        <span className="country-description">{country}</span>
+        <span className="cities-number">{populationCounts}</span>
+      </div>
+    </Link>
   </li>
 );
 
