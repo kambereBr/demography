@@ -60,9 +60,10 @@ const countriesSlice = createSlice({
   },
 });
 
-/* eslint-disable max-len */
-export const getCountryByIso3 = (state, iso3) => state.countries.countries.find((country) => country.iso3 === iso3);
-/* eslint-disable max-len */
+export const getCountryByIso3 = (state, iso3) => {
+  const data = state.countries.countries;
+  return data.find((country) => country.iso3 === iso3);
+};
 
 export const getAllCountries = (state) => state.countries;
 export default countriesSlice.reducer;
