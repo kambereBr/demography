@@ -1,0 +1,35 @@
+.container {
+  vertical-align: middle;
+}
+
+.nav-container {
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.back-button {
+  color: var(--text-color);
+}
+
+.back-button-text {
+  font-weight: 700 !important;
+}
+
+.demography-title-section > h1 {
+  font-size: 0.9rem;
+}
+
+.back-button-section {
+  display: flex;
+  align-items: baseline;
+}
+
+.right-icons-section > span,
+.back-button-section > span {
+  margin-right: 10px;
+}

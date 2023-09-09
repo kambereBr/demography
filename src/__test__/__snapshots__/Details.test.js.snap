@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Details correctly Render Details Screen correctly 1`] = `
+<div
+  className="details-container"
+>
+  <div
+    className="details-header"
+  >
+    <div
+      className="details-header-info"
+    >
+      <span
+        className="country-code"
+      />
+      <span
+        className="country-name"
+      />
+      <span
+        className="country-population"
+      >
+        0 people
+      </span>
+    </div>
+    <div
+      className="demography-details"
+    >
+      <span>
+        DEMOGRAPHY DETAILS
+      </span>
+    </div>
+  </div>
+  <div>
+    <ul
+      className="demography-list"
+    />
+  </div>
+</div>
+`;
